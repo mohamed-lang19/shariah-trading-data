@@ -1,0 +1,47 @@
+{
+  "date": "2025-09-03",
+  "equity_eur": 358.32,
+  "cash_eur": 320,
+  "holdings": [
+    {
+      "ticker": "AIR.PA",
+      "shares": 2,
+      "avg_cost": 133.5
+    }
+  ],
+  "prices": {
+    "AIR.PA": {
+      "close": 179.16,
+      "adv_shares": 837110,
+      "atr14": 2.0
+    }
+  },
+  "watchlist": [
+    "TICK1",
+    "TICK2",
+    "TICK3"
+  ],
+  "compliance": {
+    "AIR.PA": {
+      "debt_mc": 0.0941,
+      "cashsec_mc": 0.0846,
+      "haram_rev_pct": 1.15,
+      "sector": "Aerospace & Defense",
+      "verdict": "FAIL"
+    }
+  },
+  "news": {
+    "AIR.PA": [
+      {
+        "type": "earnings",
+        "tone": "pos",
+        "summary": "beat on revenue"
+      },
+      {
+        "type": "labor",
+        "tone": "neutral",
+        "summary": "UK Airbus workers postponed planned strikes after receiving an improved pay offer; union will ballot mid‑September."
+      }
+    ]
+  }
+}
