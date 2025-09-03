@@ -1,0 +1,33 @@
+{
+  "date": "2025-09-03",
+  "equity_eur": 500,
+  "cash_eur": 320,
+  "holdings": [
+    {
+      "ticker": "AIR.PA",
+      "shares": 2,
+      "avg_cost": 133.5
+    }
+  ],
+  "prices": {
+    "AIR.PA": {
+      "close": 134.2,
+      "adv_shares": 1300000,
+      "atr14": 2.1
+    }
+  },
+  "news": {
+    "AIR.PA": [
+      {
+        "type": "earnings",
+        "tone": "pos",
+        "summary": "beat on revenue"
+      }
+    ]
+  },
+  "watchlist": [
+    "TICK1",
+    "TICK2",
+    "TICK3"
+  ]
+}
