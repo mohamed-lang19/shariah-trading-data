@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["date", "equity_eur", "cash_eur", "holdings", "prices", "watchlist"],
+  "properties": {
+    "date": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    "equity_eur": {"type": "number"},
+    "cash_eur": {"type": "number"},
+    "holdings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["ticker", "shares", "avg_cost"],
+        "properties": {
+          "ticker": {"type": "string"},
+          "shares": {"type": "number"},
+          "avg_cost": {"type": "number"}
+        }
+      }
+    },
+    "prices": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "close": {"type": "number"},
+          "adv_shares": {"type": "number"},
+          "atr14": {"type": "number"}
+        }
+      }
+    },
+    "watchlist": {"type": "array", "items": {"type": "string"}},
+    "compliance": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "debt_mc": {"type": "number"},
+          "cashsec_mc": {"type": "number"},
+          "haram_rev_pct": {"type": "number"},
+          "sector": {"type": "string"},
+          "verdict": {"type": "string", "enum": ["PASS", "FAIL", "UNKNOWN", "BORDERLINE"]}
+        }
+      }
+    },
+    "news": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "type": {"type": "string"},
+            "tone": {"type": "string"},
+            "summary": {"type": "string"}
+          }
+        }
+      }
+    }
+  }
+}
