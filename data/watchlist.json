@@ -1,4 +1,185 @@
 {
   "date": "2025-09-03",
-  "universe": []
+  "universe": [
+    {
+      "ticker": "AIR.PA",
+      "country": "FR",
+      "price": 184.7,
+      "adv_shares": 20.89,
+      "mktcap_eur": 146334.8,
+      "sector": "Aerospace",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "ticker": "ASML.AS",
+      "country": "NL",
+      "price": 625.3,
+      "adv_shares": 13.53,
+      "mktcap_eur": 243072.3,
+      "sector": "Information Technology",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "ticker": "SIEGn.DE",
+      "country": "DE",
+      "price": 145.0,
+      "adv_shares": 0.8,
+      "mktcap_eur": 120000.0,
+      "sector": "Industrials",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "ticker": "SAPG.DE",
+      "country": "DE",
+      "price": 127.0,
+      "adv_shares": 1.0,
+      "mktcap_eur": 169000.0,
+      "sector": "Information Technology",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "ticker": "BMWG.DE",
+      "country": "DE",
+      "price": 90.0,
+      "adv_shares": 0.6,
+      "mktcap_eur": 56000.0,
+      "sector": "Consumer Discretionary",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "ticker": "OR.PA",
+      "country": "FR",
+      "price": 420.0,
+      "adv_shares": 0.5,
+      "mktcap_eur": 224000.0,
+      "sector": "Consumer Staples",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "ticker": "LVMH.PA",
+      "country": "FR",
+      "price": 775.0,
+      "adv_shares": 0.4,
+      "mktcap_eur": 392000.0,
+      "sector": "Consumer Discretionary",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "ticker": "NESN.S",
+      "country": "CH",
+      "price": 108.0,
+      "adv_shares": 1.5,
+      "mktcap_eur": 350000.0,
+      "sector": "Consumer Staples",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "ticker": "SAN.PA",
+      "country": "FR",
+      "price": 90.0,
+      "adv_shares": 1.2,
+      "mktcap_eur": 110000.0,
+      "sector": "Health Care",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "ticker": "TTEF.PA",
+      "country": "FR",
+      "price": 52.78,
+      "adv_shares": 84.38,
+      "mktcap_eur": 122857.9,
+      "sector": "Energy",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "ticker": "AAPL.O",
+      "country": "US",
+      "price": 238.47,
+      "adv_shares": 1120.28,
+      "mktcap_eur": 3169495.0,
+      "sector": "Information Technology",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "ticker": "MSFT.O",
+      "country": "US",
+      "price": 337.0,
+      "adv_shares": 25.0,
+      "mktcap_eur": 2348250.0,
+      "sector": "Information Technology",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "ticker": "GOOGL.O",
+      "country": "US",
+      "price": 134.0,
+      "adv_shares": 30.0,
+      "mktcap_eur": 1581000.0,
+      "sector": "Communication Services",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "ticker": "AMZN.O",
+      "country": "US",
+      "price": 135.0,
+      "adv_shares": 50.0,
+      "mktcap_eur": 1320600.0,
+      "sector": "Consumer Discretionary",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "ticker": "TSLA.O",
+      "country": "US",
+      "price": 260.0,
+      "adv_shares": 70.0,
+      "mktcap_eur": 771900.0,
+      "sector": "Consumer Discretionary",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "ticker": "NVDA.O",
+      "country": "US",
+      "price": 496.0,
+      "adv_shares": 45.0,
+      "mktcap_eur": 1145100.0,
+      "sector": "Information Technology",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "ticker": "META.O",
+      "country": "US",
+      "price": 312.0,
+      "adv_shares": 24.0,
+      "mktcap_eur": 745860.0,
+      "sector": "Communication Services",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "ticker": "PFE.N",
+      "country": "US",
+      "price": 38.0,
+      "adv_shares": 20.0,
+      "mktcap_eur": 199020.0,
+      "sector": "Health Care",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "ticker": "KO.N",
+      "country": "US",
+      "price": 59.0,
+      "adv_shares": 12.0,
+      "mktcap_eur": 237150.0,
+      "sector": "Consumer Staples",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "ticker": "JPM.N",
+      "country": "US",
+      "price": 168.0,
+      "adv_shares": 9.0,
+      "mktcap_eur": 455700.0,
+      "sector": "Financials",
+      "verdict": "FAIL"
+    }
+  ]
 }
